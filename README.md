@@ -30,7 +30,7 @@
 ## How to use?
 For server (Linux)
 ```
-$ python3 ASC3
+$ python3 resys
 ```
 
 For client

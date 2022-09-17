@@ -4,12 +4,12 @@
 
 
 ## Contents
-- `/resys`: 변이추천시스템의 구동 폴더
-- `/resys/__main__.py`: ASC3 폴더를 동작시기 위한 최상위 코드 (app.py을 구동)
-- `/resys/app.py`: FastAPI을 동작시키는 메인 모듈
-- `/resys/models.py`: 쿼리 변이들과 변이들의 특징값을 인자로하여 컨펌 변이의 확률을 추론하는 추론기
-- `/resys/utils.py`: 로깅과 YAML파일을 로딩하는 유틸
-- `/resys/logs`: 로그 폴더
+- `/resys`: API main folder
+- `/resys/__main__.py`: Top-level code to run the ASC3 folder (run app.py)
+- `/resys/app.py`: Main module that runs FastAPI
+- `/resys/models.py`: A inference model that predicts the probability of a confirmed mutation using query mutations and feature values of mutations
+- `/resys/utils.py`: utils
+- `/resys/logs`: log
 
 ```
 .
@@ -25,16 +25,6 @@
 ├── README.md
 └── requirements.txt
 ```
-
-
-## Requirement
-1. PyYAML
-2. locust
-3. Python3.7 ~
-4. sklearn >= 0.24.2
-
-## Install
-TODO
 
 
 ## How to use?
@@ -94,5 +84,15 @@ curl -X 'POST' \
 '
 ```
 
-# 
+
+
+## Requirement
+1. PyYAML
+2. locust
+3. Python3.7 ~
+4. sklearn >= 0.24.2
+
+
+
+## Author Affiliation
 Research and Development Center, 3billion, 416 Teheran-ro, 06193 Seoul, Republic of Korea

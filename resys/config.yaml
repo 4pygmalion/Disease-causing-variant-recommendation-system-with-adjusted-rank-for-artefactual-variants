@@ -1,0 +1,6 @@
+API:
+  HOST: "0.0.0.0"
+  PORT: 8000
+  MODEL:
+    PATH: "model/model.pkl"
+    FEATURE_NAMES: ["acmg_bayesian", "vaf", "qual", "disease_similarity", "inhouse_af"]
